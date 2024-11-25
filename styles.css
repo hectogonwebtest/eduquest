@@ -104,3 +104,38 @@ h2.text-center {
 .text-shadow-1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+/* Categories */
+
+/* General image styling for the feature icons */
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the space while maintaining aspect ratio */
+  border-radius: 0.375rem; /* Rounded corners for the image */
+}
+
+/* Optional: You can also add hover effects for the images */
+.feature-image:hover {
+  opacity: 0.85; /* Slight opacity change on hover */
+  transition: opacity 0.3s ease;
+}
+
+/* Styling for the feature-icon-small container */
+.feature-icon-small {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(
+    --primary-color,
+    #007bff
+  ); /* You can change the background color */
+  background-image: linear-gradient(
+    to right,
+    #00f,
+    #007bff
+  ); /* Gradient effect */
+  font-size: 1.25rem; /* Adjust font size */
+  border-radius: 0.375rem; /* Rounded corners */
+  padding: 10px;
+}
