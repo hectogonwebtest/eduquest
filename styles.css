@@ -24,7 +24,6 @@
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Overlay styling */
 .carousel-caption .overlay {
   position: absolute;
   top: 0;
@@ -36,7 +35,7 @@
 }
 
 /* Featured */
-/* General Styles for the Featured Section */
+
 .container {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -57,7 +56,7 @@ h2.text-center {
 }
 
 .card-cover .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-cover h3 {
@@ -86,8 +85,6 @@ h2.text-center {
   font-size: 32px;
 }
 
-/* Padding and Margin Adjustments for Each Card */
-
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
@@ -115,7 +112,6 @@ h2.text-center {
   border-radius: 0.375rem; /* Rounded corners for the image */
 }
 
-/* Optional: You can also add hover effects for the images */
 .feature-image:hover {
   opacity: 0.85; /* Slight opacity change on hover */
   transition: opacity 0.3s ease;
@@ -126,16 +122,9 @@ h2.text-center {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(
-    --primary-color,
-    #007bff
-  ); /* You can change the background color */
-  background-image: linear-gradient(
-    to right,
-    #00f,
-    #007bff
-  ); /* Gradient effect */
-  font-size: 1.25rem; /* Adjust font size */
-  border-radius: 0.375rem; /* Rounded corners */
+  background-color: var(--primary-color, #007bff);
+  background-image: linear-gradient(to right, #00f, #007bff);
+  font-size: 1.25rem;
+  border-radius: 0.375rem;
   padding: 10px;
 }
